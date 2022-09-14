@@ -12,7 +12,7 @@ class App extends React.Component {
         imageUrl:
           "https://cdn1.eyeem.com/thumb/15b0a404a85a47ee778efa4ac286f29adc46fe57-1526777767174/1100/1100",
         location:
-          "https://maps.google.com/maps?q=hallstatt&t=&z=15&ie=UTF8&iwloc=&output=embed",
+          "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d336.5321395084861!2d13.649392373758564!3d47.562785600000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47713752966fb6fd%3A0x467a5c08d8b89f84!2sSpielplatz!5e0!3m2!1str!2str!4v1663143741424!5m2!1str!2str",
       },
 
       {

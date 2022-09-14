@@ -18,6 +18,7 @@ const Photo = (props) => {
                 height="230"
                 frameborder="0"
                 scrolling="no"
+                loading="lazy"
                 marginheight="0"
                 marginwidth="0"
                 src={photo.location}
