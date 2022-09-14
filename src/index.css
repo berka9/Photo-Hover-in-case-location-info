@@ -1,13 +1,60 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.divHome {
+  width: 100%;
+  height: 100%;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.divEyemDark {
+  margin-top: 40px;
+  margin-left: 70px;
+  display: table;
+  float: left;
+  display: block;
+  background-color: #010216;
+  border-radius: 5px;
+  width: 400px;
+  height: 360px;
+  box-shadow: 0 16px 32px 0 rgba(37, 37, 37, 0.2),
+    0 6px 20px 0 rgba(35, 35, 36, 0.19);
+  min-height: 200px;
+}
+.image {
+  position: relative;
+  width: 400px;
+}
+.image-img {
+  display: block;
+  width: 100%;
+}
+.imageOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: 0.75s;
+}
+.imageOverlay:hover {
+  opacity: 0.95;
+}
+.altDark {
+  font-size: smaller;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  color: #d2d2d2;
+  margin-left: 45%;
+  padding-top: 6px;
+}
+.eyemtextDark {
+  font-size: medium;
+  font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+  font-style: inherit;
+  margin-left: 45%;
+  color: rgba(255, 255, 255, 0.44);
+  padding-top: 10px;
 }
